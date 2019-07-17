@@ -7,7 +7,9 @@
 
 ## Running Tests
 
+* initially, run `npm install`
 * To run all of the tests, run `npm test`
 * To run individual tests, run `$(npm bin)/mocha test/path/to/test.js`
 
 ## Troubleshooting
+
