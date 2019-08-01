@@ -1,0 +1,9 @@
+pretest:
+  - echo "1"
+  - echo "huhu"
+
+test:
+
+posttest:
+  - echo "haha "
+  - echo "success"

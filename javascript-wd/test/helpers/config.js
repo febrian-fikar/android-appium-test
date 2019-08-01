@@ -8,8 +8,8 @@ const DEFAULT_ANDROID_PLATFORM_VERSION = null;
 const androidCaps = {
   platformName: 'Android',
   automationName: 'UiAutomator2',
-  deviceName: process.env.ANDROID_DEVICE_NAME || DEFAULT_ANDROID_DEVICE_NAME,
-  platformVersion: process.env.ANDROID_PLATFORM_VERSION || DEFAULT_ANDROID_PLATFORM_VERSION,
+  deviceName: 'emulator-5554',
+  platformVersion: null,
   app: undefined, // Will be added in tests
 };
 
