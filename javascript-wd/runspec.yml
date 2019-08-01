@@ -1,8 +1,8 @@
 pretest:
-  - echo "1"
-  - echo "huhu"
+  - npm install
 
 test:
+  - npm test
 
 posttest:
   - echo "haha "
