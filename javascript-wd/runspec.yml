@@ -1,9 +1,0 @@
-pretest:
-  - npm install
-
-test:
-  - npm test
-
-posttest:
-  - echo "haha "
-  - echo "success"
