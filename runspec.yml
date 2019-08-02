@@ -1,0 +1,10 @@
+pretest:
+  - cd javascript-wd
+  - npm install
+
+test:
+  - npm test
+
+posttest:
+  - echo "haha "
+  - echo "success"
