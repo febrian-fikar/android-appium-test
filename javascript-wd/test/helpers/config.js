@@ -21,10 +21,12 @@ const serverConfig = {
 
 
 // figure out the location of the apps under test
-const LOCAL_ASSET_BASE = path.resolve(__dirname, '..', '..', '..', 'apps');
+// const LOCAL_ASSET_BASE = path.resolve(__dirname, '..', '..', '..', 'apps');
+const LOCAL_ASSET_BASE = path.resolve(__dirname, '../../../../AUT');
 
 let androidApiDemos;
-androidApiDemos = path.resolve(LOCAL_ASSET_BASE, 'ApiDemos-debug.apk');
+// androidApiDemos = path.resolve(LOCAL_ASSET_BASE, 'ApiDemos-debug.apk');
+androidApiDemos = path.resolve(LOCAL_ASSET_BASE, 'AUT.apk');
 
 export {
   androidApiDemos,
